@@ -42,8 +42,7 @@ public class MyController {
         }
 
         Person person = objectMapper.readValue(requestStr, Person.class);
-        System.out.println(person);;
-
-        // xxx
+        System.out.println(person);
+        // xxxdev
     }
 }
